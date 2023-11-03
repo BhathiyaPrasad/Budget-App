@@ -14,6 +14,23 @@ public class Expenses {
     
     public Expenses(String date, String description, double amount){
         this.date = date;
-        this.description = description
+        this.description = description;
+        this.amount = amount;}
+    
+    public String getDate(){
+        return date;
     }
+    public String getDescription(){
+        return description;
+    }
+    public String amount(){
+        return amount;
+    }
+    
+    @override
+    
+    public String toString(){
+        return "Expenses(date=" + date + ",description=" + " + description + , amount=" + amount + ")";
+    }
+    
 }
