@@ -23,7 +23,7 @@ public class Expenses {
     public String getDescription(){
         return description;
     }
-    public String amount(){
+    public double amount(){
         return amount;
     }
     
