@@ -26,7 +26,7 @@ public class Expenses {
         return description;
     }
 
-    public double amount() {
+    public double getAmount() {
         return amount;
     }
 
