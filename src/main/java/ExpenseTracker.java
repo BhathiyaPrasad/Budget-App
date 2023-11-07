@@ -27,10 +27,15 @@ public class ExpenseTracker {
                 ExpensesStorage.saveExpenses(expenses);
 
                 break;
-                 case 2:
+                case 2:
+                for (Expenses e : expenses) {
+                    System.out.println(e);
+                }
+                break;
+                 case 3:
                  System.out.println("GoodBye");            
                 return;
-                default
+                default:
                 System.out.println("invalid choice. Please Select From the Menu");
                    
             }
