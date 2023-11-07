@@ -2,9 +2,9 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class ExpenseTracker {
-    public static void main(String[] args){
+    public static void main(String[] args) {
         Scanner.scanner = new Scanner(System.in);
-        ArrayList<Expenses> expenses = ExpensesStorage.loadExpenses(); 
+        ArrayList<Expenses> expenses = ExpensesStorage.loadExpenses();
 
         while (true) {
             System.out.println("\nExpense Tracker Menu");
@@ -16,30 +16,30 @@ public class ExpenseTracker {
 
             switch (choice) {
                 case 1:
-                System.out.print("Enter date (YYYY-MM-DD):");
-                String date = scanner.next();
-                scanner.nextline(); // consume newline after over
-                System.out.println("Enter description: ");
-                String desc = scanner.nextLine();
-                System.out.print("enter Amount:");
-                double amount = scanner.nextDouble();
-                expenses.add(new Expenses(date, desc, amount));
-                ExpensesStorage.saveExpenses(expenses);
+                    System.out.print("Enter date (YYYY-MM-DD):");
+                    String date = scanner.next();
+                    scanner.nextline(); // consume newline after over
+                    System.out.println("Enter description: ");
+                    String desc = scanner.nextLine();
+                    System.out.print("enter Amount:");
+                    double amount = scanner.nextDouble();
+                    expenses.add(new Expenses(date, desc, amount));
+                    ExpensesStorage.saveExpenses(expenses);
 
-                break;
+                    break;
                 case 2:
-                for (Expenses e : expenses) {
-                    System.out.println(e);
-                }
-                break;
-                 case 3:
-                 System.out.println("GoodBye");            
-                return;
+                    for (Expenses e : expenses) {
+                        System.out.println(e);
+                    }
+                    break;
+                case 3:
+                    System.out.println("GoodBye");
+                    return;
                 default:
-                System.out.println("invalid choice. Please Select From the Menu");
-                   
+                    System.out.println("invalid choice. Please Select From the Menu");
+
             }
-            
+
         }
     }
 }
