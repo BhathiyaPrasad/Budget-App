@@ -22,12 +22,17 @@ public class ExpenseTracker {
                 System.out.println("Enter description: ");
                 String desc = scanner.nextLine();
                 System.out.print("enter Amount:");
-                double amount = scanner.nextDouble():
+                double amount = scanner.nextDouble();
+                expenses.add(new Expenses(date, desc, amount));
+                ExpensesStorage.saveExpenses(expenses);
 
-                    break;
-            
-                default:
-                    break;
+                break;
+                 case 2:
+                 System.out.println("GoodBye");            
+                return;
+                default
+                System.out.println("invalid choice. Please Select From the Menu");
+                   
             }
             
         }
