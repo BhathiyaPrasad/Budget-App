@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 public class ExpenseTracker {
     public static void main(String[] args) {
-        Scanner.scanner = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
         ArrayList<Expenses> expenses = ExpensesStorage.loadExpenses();
 
         while (true) {
@@ -18,7 +18,7 @@ public class ExpenseTracker {
                 case 1:
                     System.out.print("Enter date (YYYY-MM-DD):");
                     String date = scanner.next();
-                    scanner.nextline(); // consume newline after over
+                    scanner.nextLine(); // consume newline after over
                     System.out.println("Enter description: ");
                     String desc = scanner.nextLine();
                     System.out.print("enter Amount:");
@@ -37,7 +37,7 @@ public class ExpenseTracker {
                     return;
                 default:
                     System.out.println("invalid choice. Please Select From the Menu");
-
+ scanner.close();
             }
 
         }
