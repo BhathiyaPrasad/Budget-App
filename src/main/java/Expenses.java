@@ -31,7 +31,7 @@ public class Expenses {
     }
 
     public String toString() {
-        return "Expenses(date=" + date + ",description=" + " + description + , amount=" + amount + ")";
+        return "Expenses(date=" + date + ",description=" +  description + ", amount=" + amount + ")";
     }
 
 }
