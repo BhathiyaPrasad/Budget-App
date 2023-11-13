@@ -2,7 +2,7 @@
 
 1. This is my First try to develope a app using JAVA
 
-2. First of all i created the expenses.java then i created variables (Description , Amount , Date)
+2. First of all i created the expenses.java then i created variables (Description , Amount , Date).
 
 3. Then I Created code for store data that user input
 
