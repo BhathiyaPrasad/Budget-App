@@ -6,4 +6,4 @@
 
 3. Then I Created code for store data that user input.
 
-4. With Scanner keyword I created input Fields in Terminal 
+4. With Scanner keyword I created input Fields in Terminal.
