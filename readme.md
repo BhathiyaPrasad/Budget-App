@@ -4,6 +4,6 @@
 
 2. First of all i created the expenses.java then i created variables (Description , Amount , Date).
 
-3. Then I Created code for store data that user input
+3. Then I Created code for store data that user input.
 
 4. With Scanner keyword I created input Fields in Terminal 
