@@ -8,4 +8,4 @@
 
 4. With Scanner keyword I created input Fields in Terminal.
 
-5. Then I Input the Data Like ( Name, Date, 
+5. Then I Input the Data Like ( Name, Date, Description 
