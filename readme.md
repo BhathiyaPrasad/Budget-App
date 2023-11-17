@@ -10,4 +10,4 @@
 
 5. Then You can Input the Data Like ( Name, Date, Description ,Amount) To the running Terminal
 
-6. Then the Funtions are getting starting at the end our input store as a text in a text file called expenses.txt
+6. Then the Funtions are getting starting at the end our input stores as a 'text value' in the text file called 'expenses.txt'
