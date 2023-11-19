@@ -1,4 +1,4 @@
-## Budget App (Command Line)
+# Budget App (Command Line)
 
 1. This is my First try to develope a app using JAVA.
 
