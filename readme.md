@@ -12,4 +12,4 @@
 
 6. Then the Funtions are getting starting at the end our input stores as a 'text value' in the text file called 'expenses.txt'.
 
-7. Basical i developed this command line to test my coding ability.
+7. Basicai developed this command line to test my coding ability.
