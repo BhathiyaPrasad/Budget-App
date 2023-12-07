@@ -12,4 +12,4 @@
 
 6. Then the Funtions are getting starting at the end our input stores as a 'text value' in the text file called 'expenses.txt'.
 
-7. Basi developed this command line to test my coding ability.
+7. I Basically developed this command line software to test my coding ability.
