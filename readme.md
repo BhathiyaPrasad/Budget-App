@@ -1,5 +1,5 @@
 # Budget App [Command Line(JAVA)]
-000000
+00000
 
 1. This is my First try to develope a app using JAVA.
 
